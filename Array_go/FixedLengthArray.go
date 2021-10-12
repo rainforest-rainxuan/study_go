@@ -48,4 +48,8 @@ func main() {
 
 	fmt.Println("arr[6]=", arr5[6])
 
+	var arr6 [5]int
+	arr6 = arr3
+	fmt.Println("arr6[3]=", arr6[3])
+
 }
